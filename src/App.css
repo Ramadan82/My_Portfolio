@@ -13,6 +13,9 @@ font-family: 'Roboto Condensed', sans-serif;
   --primary-hover-red: #f33501;
 }
 /*********************NAVBAR*************************/
+nav{
+  z-index: 2;
+}
 .logo{
   width: 16.25rem;
   

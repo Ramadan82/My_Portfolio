@@ -14,6 +14,13 @@ function App() {
           enable: true,
           value_area: 900
         }
+      },
+      shape: {
+        type: "cirle",
+        stroke: {
+          width: 6,
+          color: "#f9ab00"
+        }
       }
     }}}/>
     <Navbar />
