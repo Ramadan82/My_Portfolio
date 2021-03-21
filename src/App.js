@@ -7,22 +7,26 @@ function App() {
   return (
     <>
     <Particles 
-    params={{particles: {
-      number: {
+    className="particles-canvas"
+    params={{
+      particles: {
+       number: {
         value: 30,
         density: {
           enable: true,
-          value_area: 900
+           value_area: 900
         }
       },
       shape: {
-        type: "cirle",
+        type: "star",
         stroke: {
           width: 6,
           color: "#f9ab00"
         }
       }
-    }}}/>
+    }
+  }
+}/>
     <Navbar />
     <Header />
     </>
